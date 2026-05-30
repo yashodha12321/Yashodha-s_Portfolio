@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>certificates</title>
+    <script src="script.js"></script>
+    <style>
+        .certificate_container{
+            background:linear-gradient(to top,rgb(83,69,69),rgb(220,206,206));
+            height:100vh;
+            text-align: center;
+            justify-content:center;
+            border-radius:20px;
+            padding:20px;
+            margin:20px;
+        }
+        .cert{
+            border-radius:15px;
+            font-size:18px;
+            box-shadow:2px 2px 10px  black;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate_container">
+        <h1>My Certificates</h1>
+    
+    <div class="certificate">
+        <h2>Cloud Computing</h2>
+        <button onclick="AWS()" class="cert">view Certificate</button>
+    </div>
+    <div class="certificate">
+        <h2>DevOps</h2>
+        <button onclick="DEVOPS()" class="cert">view Certificate</button>
+    </div>
+
+     <div class="certificate">
+        <h2>Coding Competitions</h2>
+        <button onclick="CODZEN()" class="cert">view Certificate</button>
+     </div>
+     <div class="certificate">
+        <h2>Business modelling and Financial planning</h2>
+        <button onclick="WADHWANI()" class="cert">view Certificate</button>
+     </div>
+    </div>
+</body>
+</html>
