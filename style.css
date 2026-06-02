@@ -40,6 +40,25 @@ a.navelement:hover{
     align-items:center;
     background: linear-gradient(to top,rgb(83, 69, 69),rgb(176, 162, 162));
 }
+.role::after{
+    content: "Full Stack Developer";
+    color: rgb(150, 41, 95);
+    animation: roles 3s infinite;
+}
+
+@keyframes roles{
+    0%, 33%{
+        content: "Full Stack Developer";
+    }
+
+    34%, 66%{
+        content: "Software Developer";
+    }
+
+    67%, 100%{
+        content: "Frontend Developer";
+    }
+}
 img{
 border-radius:50%;
 align-items:center;
